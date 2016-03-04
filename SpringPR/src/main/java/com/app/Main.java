@@ -13,6 +13,7 @@ public class Main {
 		ConfigurableApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml"); 
 		EmployeeRepository er = (EmployeeRepository) context.getBean("employeeRepository"); 
 //		Iterable<Employee> list = er.findAll(); 
+		System.out.println("bye");
 		
 // Spring Core, Spring Data
 		
